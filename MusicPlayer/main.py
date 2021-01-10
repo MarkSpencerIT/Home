@@ -56,7 +56,7 @@ def resume():
 Button_play = tkr.Button(musicplayer, height=3, width=5, text="Play Music", font="Cambria 14 bold", command=play, bg="lime green", fg="black")
 Button_stop = tkr.Button(musicplayer, height=3, width=5, text="Stop Music", font="Cambria 14 bold", command=ExitMusicPlayer, bg="red", fg="black")
 Button_pause = tkr.Button(musicplayer, height=3, width=5, text="Pause Music", font="Cambria 14 bold", command=pause, bg="Yellow", fg="black")
-Button_resume = tkr.Button(musicplayer, height=3, width=5, text="Resume Music", font="Cambria 14 bold", command=resume, bg="blue", fg="black")
+Button_resume = tkr.Button(musicplayer, height=3, width=5, text="Resume Music", font="Cambria 14 bold", command=resume, bg="pink", fg="black")
 Button_play.pack(fill='x')
 Button_stop.pack(fill='x')
 Button_pause.pack(fill='x')
