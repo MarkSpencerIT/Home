@@ -10,3 +10,11 @@ done
 
 echo "$(date): Connected - ${serverAdr}";
 
+python3 -m webbrowser https://stackoverflow.com
+
+#Python option - python3 -m webbrowser https://stackoverflow.com
+#macOS option default - open https://stackoverflow.com
+#macOS option a web browser - open -a Firefox https://stackoverflow.com 
+#Linux xdg-open https://stackoverflow.com
+
+exit 0
